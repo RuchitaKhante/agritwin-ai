@@ -1,0 +1,12 @@
+Recognizing Crop Water Stress and Related Conditions
+
+Crops showing visible stress - such as wilting, drooping leaves, drying leaf edges, or an overall weak appearance - are commonly described by farmers as "crop looks dry," "plants wilting," "leaves drooping," or "crop is drying."
+
+Water stress is a common cause of these symptoms, but not the only one. Possible causes include:
+- Insufficient soil moisture (true water stress) - check the soil moisture reading; if it is low, irrigation is likely needed.
+- Heat stress - even with adequate soil moisture, very high temperatures can cause temporary wilting during the hottest part of the day; plants sometimes recover by evening.
+- Nutrient deficiency - certain deficiencies can cause leaf discoloration or weak growth even with adequate water.
+- Root damage or disease - if wilting persists despite adequate soil moisture and normal temperatures, root problems or disease should be considered.
+- Overwatering - ironically, waterlogged roots can also cause a wilted appearance because damaged roots cannot take up water properly.
+
+Because dryness/wilting can have multiple causes, the appropriate response depends on checking soil moisture first. If soil moisture is low and temperature is high, irrigation is usually the right response. If soil moisture is already adequate and the plant still looks stressed, a nutrient issue, disease, or root problem should be suspected, and consulting a local agricultural expert is advisable rather than simply adding more water.

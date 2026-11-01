@@ -1,0 +1,17 @@
+General Crop-Soil Suitability (Widely-Known Reference, Not a Substitute for Local Expert Advice)
+
+Different soil types traditionally suit different crops. These are general, widely-known associations - actual suitability also depends on climate, season, rainfall, and local conditions, so this should be treated as a starting point for discussion with a local agricultural officer, not a final recommendation.
+
+Black soil (regur soil): commonly associated with cotton cultivation in India, due to its high water-retention capacity. Also suitable for soybean, sorghum (jowar), and sugarcane in adequate rainfall areas.
+
+Sandy soil: drains quickly, generally suited to crops tolerant of lower water retention, such as groundnut, millets (bajra), and certain vegetables, when irrigation is managed carefully and frequently.
+
+Clay soil: retains water well but drains slowly; suited to crops that tolerate more consistent moisture, such as paddy/rice (especially heavy clay that holds standing water) and wheat in many regions.
+
+Loamy soil: generally considered good all-purpose soil with balanced drainage and water retention, suited to a wide range of crops including vegetables, wheat, and many cash crops.
+
+Red soil: typically lower in fertility than black soil, but with proper fertilization, supports crops like groundnut, millets, and pulses in many regions.
+
+Season also matters significantly: in India, kharif crops (sown with monsoon rains, roughly June-October) include rice, cotton, soybean, and maize; rabi crops (sown after monsoon, roughly October-March) include wheat, mustard, and gram; zaid crops (short summer season) include some vegetables and fodder crops.
+
+Because actual crop choice depends on soil type, season, local rainfall, market access, and the farmer's specific land and resources, this information should be treated as a general starting point. A local agricultural extension officer or Krishi Vigyan Kendra (KVK) can give a recommendation suited to the specific field and current season.

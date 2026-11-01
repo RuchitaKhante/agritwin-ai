@@ -1,0 +1,9 @@
+Irrigation Basics
+
+Irrigation means supplying water to crops through means other than natural rainfall, such as sprinklers, drip lines, or flood channels. The goal is to keep soil moisture within the range a crop needs to grow well, without over-watering or under-watering.
+
+Over-irrigation can lead to waterlogging, root rot, nutrient leaching, and wasted water. Under-irrigation causes wilting, stunted growth, and reduced yield. Both extremes stress the plant, so the aim is consistency rather than maximum water.
+
+Common irrigation methods include drip irrigation (water delivered slowly near the root zone, water-efficient), sprinkler irrigation (water sprayed over the field, good for larger areas), and flood/furrow irrigation (water flows across the field, simple but less water-efficient).
+
+The right irrigation amount and frequency depends on crop type, growth stage, soil type, and current weather. A single fixed schedule rarely works well across an entire season.

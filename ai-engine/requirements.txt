@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+shap
+joblib
+pydantic
+tensorflow
+faiss-cpu
+sentence-transformers
+rapidfuzz
+groq
+python-dotenv
+xgboost
+httpx
+pytest

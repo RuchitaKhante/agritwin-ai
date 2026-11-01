@@ -1,0 +1,28 @@
+# Secrets (never commit)
+application.properties
+.env
+secrets.h
+
+# Java / Spring Boot / STS
+target/
+bin/
+.classpath
+.project
+.settings/
+.factorypath
+.sts4-cache/
+*.class
+*.log
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+knowledge_base/vector_store/
+
+# OS / editor
+Thumbs.db
+.vscode/
+.idea/

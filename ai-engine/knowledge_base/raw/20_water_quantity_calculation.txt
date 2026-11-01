@@ -1,0 +1,17 @@
+Water Quantity and Irrigation Duration Calculation
+
+This file explains how the advisory system turns an irrigation depth in millimetres into litres and running time for a specific farm. The server performs the arithmetic; the numbers it computes must be quoted exactly.
+
+Basic rule: 1 mm of water over 1 square metre equals 1 litre. So volume in litres equals depth in mm multiplied by field area in square metres. 1 acre is 4,046.86 square metres, 1 hectare is 10,000 square metres, and 1 guntha is about 101.17 square metres. 1,000 litres equal 1 cubic metre.
+
+Irrigation efficiency: not all applied water reaches the roots. Typical application efficiency (FAO-56) is about 90 percent for drip, 75 percent for sprinkler and 60 percent for flood, furrow or surface irrigation. Water to apply equals the net depth needed by the crop divided by efficiency. The depth estimates given by this advisory system already assume 90 percent efficiency (drip-like). For sprinkler or flood the system recalculates the depth with the lower efficiency.
+
+Drip duration: total emitter flow in litres per hour equals the number of emitters multiplied by the flow rate of one emitter. Running time in hours equals total litres divided by total emitter flow. Example: 1 acre with 30 mm of water to be applied needs about 121,400 litres. With 4,000 emitters at 4 litres per hour (16,000 litres per hour) the run time is about 7 hours 35 minutes. If the crop needs a net depth of 27 mm, a drip system at 90 percent efficiency has to apply 30 mm.
+
+Sprinkler duration: running time in hours equals depth in mm divided by the sprinkler application rate in mm per hour. If only the system discharge in litres per minute is known, running time in minutes equals total litres divided by discharge.
+
+Flood and furrow duration: running time equals total litres divided by the pump or canal discharge in litres per minute. Flood irrigation usually applies a larger depth per event and has lower efficiency, so it needs the most water for the same crop benefit.
+
+Information needed for an exact answer: field area with its unit, irrigation method (drip, sprinkler or flood), and either the emitter count with flow per emitter, or the system discharge in litres per minute. Without these only the litres per millimetre can be given. If any item is missing, ask for it, one question at a time.
+
+Assumptions to mention with every calculation: depth taken from the live analysis or given by the farmer, efficiency used for the method, and that real flow rates change with pressure, clogging and pump condition. Check actual flow with a bucket-and-timer test if possible.

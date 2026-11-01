@@ -1,0 +1,11 @@
+Crop Water Requirements
+
+Different crops need different amounts of water at different growth stages. Water requirement is generally higher during germination, flowering, and fruit-development stages, and lower during early vegetative growth and just before harvest.
+
+Some general patterns (not exact figures, since actual requirement depends on climate, soil, and variety):
+- Leafy vegetables generally need frequent, light watering since their roots are shallow.
+- Fruiting vegetables like tomato and chili need consistent moisture, especially during flowering and fruit set, but are sensitive to waterlogging.
+- Cereal crops like wheat need controlled watering at key stages (crown root initiation, flowering, grain filling) rather than continuous watering.
+- Paddy/rice typically needs standing water for much of its growth cycle, unlike most other crops.
+
+Because exact water quantity depends on crop variety, soil type, field size, and local climate, a general advisory system should describe direction (irrigate / don't irrigate / monitor) rather than claim a precise litre count unless that specific data is available.

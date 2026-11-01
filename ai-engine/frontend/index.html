@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgriTwin AI — Farmer Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>🌱 AgriTwin AI</h1>
+    <p>Farmer Irrigation Assistant</p>
+  </header>
+
+  <main class="chat-container">
+    <div id="chatWindow" class="chat-window">
+      <div class="message bot-message">
+        <p>Hello! I can help you with irrigation questions, soil moisture, weather-based watering decisions, and more. How can I help you today?</p>
+      </div>
+    </div>
+
+    <div id="suggestedQuestions" class="suggested-questions">
+      <button class="suggestion-btn">Should I irrigate today?</button>
+      <button class="suggestion-btn">Why is my soil dry?</button>
+      <button class="suggestion-btn">Explain my soil health</button>
+      <button class="suggestion-btn">Will rain affect irrigation?</button>
+    </div>
+
+
+
+    <div id="errorBanner" class="error-banner hidden"></div>
+
+    <form id="chatForm" class="chat-input-row">
+      <button type="button" id="micButton" class="mic-button" title="Speak your question">🎤</button>
+      <input
+        type="text"
+        id="textInput"
+        placeholder="Type your question..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="sendButton" class="send-button">Send</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

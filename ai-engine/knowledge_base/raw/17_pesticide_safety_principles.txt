@@ -1,0 +1,12 @@
+General Pest Management Principles (Reference Only - Not a Pesticide Recommendation)
+
+Pest and disease management decisions depend on correctly identifying the specific pest or disease, which requires visual inspection or expert diagnosis - something a soil-moisture chatbot cannot do reliably from a text description alone.
+
+General, safe principles that apply broadly:
+- Integrated Pest Management (IPM) favors prevention first: crop rotation, resistant varieties, and field sanitation reduce pest pressure before chemical intervention is needed.
+- Correct pest identification matters - the same symptom (e.g. leaf holes, yellowing) can have different causes requiring different treatments; treating the wrong pest wastes money and can harm the crop or beneficial insects.
+- Pesticide application timing matters for both effectiveness and safety - many pesticides should not be applied during flowering (to protect pollinators) or shortly before harvest (for residue safety).
+- Always follow the product label exactly - dosage, safety equipment, and re-entry/harvest intervals specified on a pesticide label are based on safety testing and must be followed precisely.
+- Overuse of pesticides can lead to pest resistance over time, making future infestations harder to control.
+
+Because correct pesticide selection and dosage depends on accurately identifying the specific pest, local regulations, and the product label, this chatbot cannot and should not recommend a specific pesticide product or dosage. For pest or disease problems, consult your local agricultural extension officer, a licensed pesticide dealer, or a Krishi Vigyan Kendra (KVK), who can correctly identify the issue and recommend an appropriate, safe treatment.

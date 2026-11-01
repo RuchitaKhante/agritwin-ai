@@ -1,0 +1,26 @@
+Common Farming Equipment by Purpose
+
+Land preparation equipment:
+- Tractor: primary power source for most mechanized field operations.
+- Plough: breaks and turns soil before sowing.
+- Cultivator: loosens soil and helps control weeds before sowing.
+- Harrow: breaks up soil clumps after ploughing for a finer seedbed.
+
+Irrigation equipment:
+- Water pump: draws water from a well, borewell, or canal to the field.
+- Pipes: carry water from the pump to the field or irrigation system.
+- Drip irrigation system: includes drippers, main lines, and filters - delivers water directly to the root zone, water-efficient.
+- Sprinkler system: includes sprinkler heads and pipes - sprays water over a wider area, suited to certain crops and soil types.
+- Filters and valves: prevent clogging in drip/sprinkler systems and help control water flow.
+
+Crop management equipment:
+- Sprayer: applies pesticides or fertilizers evenly across the field.
+- Seeder/planter: sows seeds at a consistent depth and spacing.
+- Weeder: removes weeds between crop rows, manually or mechanically.
+
+Harvesting equipment:
+- Reaper: cuts mature crops like wheat or rice.
+- Thresher: separates grain from harvested stalks.
+- Combine harvester: performs cutting and threshing together, mainly used for large-scale cereal farming.
+
+The right equipment depends on farm size, crop type, and budget - a small farm may rely more on manual or shared/rented equipment, while larger operations benefit more from owned mechanized equipment.

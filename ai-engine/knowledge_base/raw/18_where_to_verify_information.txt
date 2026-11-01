@@ -1,0 +1,26 @@
+Where Farmers Can Verify Current Prices, Brands, and Product Information
+
+This chatbot does not have access to live, current prices or a verified list of commercial brands, since these change frequently and vary by region. For accurate, up-to-date information, farmers should check the following types of official sources:
+
+Fertilizer and pesticide prices and availability:
+- The nearest Krishi Seva Kendra (agricultural input dealer) can confirm current local prices and available brands.
+- The Department of Fertilizers, Government of India, publishes subsidized fertilizer prices (for urea, DAP, MOP, and NPK complexes) on its official website.
+- Local agricultural cooperative societies (e.g. PACS) often have current stock and pricing information.
+
+Crop/mandi (market) prices:
+- The Agmarknet portal (agmarknet.gov.in), run by the Government of India, publishes daily mandi prices for various crops across different markets.
+- The eNAM (National Agriculture Market) portal (enam.gov.in) provides price information from electronic trading platforms.
+- The local mandi committee (Krishi Upaj Mandi Samiti) can give the most immediate local price.
+
+Pesticide/fungicide/herbicide brand and registration information:
+- The Central Insecticides Board & Registration Committee (CIBRC) maintains the official list of registered pesticides in India, which confirms a product is legally approved for use.
+- A licensed pesticide dealer can confirm available brands and current stock in your area.
+
+Fertilizer recommendations and soil testing:
+- The nearest Krishi Vigyan Kendra (KVK) or state agricultural university extension center can provide soil testing services and location-specific fertilizer recommendations.
+- The Soil Health Card scheme (soilhealth.dac.gov.in) provides free soil testing and fertilizer recommendations to registered farmers in India.
+
+General agricultural advisory:
+- The Kisan Call Centre (toll-free: 1800-180-1551) provides free agricultural advice from experts in regional languages.
+
+These sources are current as of the chatbot's knowledge and should be verified, since government portal names and contact details can change over time.

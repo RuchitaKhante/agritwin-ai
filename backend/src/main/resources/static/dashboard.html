@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — AgriTwin AI</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="css/forecast-dashboard.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="nav-content">
+        <div class="logo">
+            AgriTwin<span class="logo-accent">AI</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html" class="active">Dashboard</a>
+
+            <div class="contact-dropdown">
+                <button class="contact-link" id="contact-btn" type="button">
+                    Contact Us
+                </button>
+
+                <div class="contact-panel" id="contact-panel">
+                    <div class="contact-member">
+                        <strong>Shravani Tonge</strong>
+                        <a href="mailto:shravanitonge.23@stvincentngp.edu.in">shravanitonge.23@stvincentngp.edu.in</a>
+                    </div>
+                    <div class="contact-member">
+                        <strong>Ruchita Khante</strong>
+                        <a href="mailto:ruchitakhante.23@stvincentngp.edu.in">ruchitakhante.23@stvincentngp.edu.in</a>
+                    </div>
+                    <div class="contact-member">
+                        <strong>Sejal Titarmare</strong>
+                        <a href="mailto:sejaltitarmare.23@stvincentngp.edu.in">sejaltitarmare.23@stvincentngp.edu.in</a>
+                    </div>
+                    <div class="contact-member">
+                        <strong>Vaishnavi Zitey</strong>
+                        <a href="mailto:vaishnavizitey.23@stvincentngp.edu.in">vaishnavizitey.23@stvincentngp.edu.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="dashboard-farm-banner">
+    <img
+        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85"
+        alt="Peaceful agricultural landscape">
+
+    <div class="dashboard-farm-overlay">
+        <div>
+            <p>🌾 YOUR FARM · SMART AGRICULTURE</p>
+            <h1>Understand your field.</h1>
+            <span>Make irrigation decisions with confidence.</span>
+        </div>
+    </div>
+</section>
+
+<main class="dashboard">
+
+    <div id="loading-state" class="state-banner">
+        <div class="spinner"></div>
+        <p>Fetching latest advisory…</p>
+    </div>
+
+    <div id="error-state" class="state-banner error hidden">
+        <p class="state-title">Advisory service unavailable</p>
+        <p id="error-message" class="state-sub">
+            The AI analysis service isn't reachable right now.
+        </p>
+        <button id="retry-btn" class="btn-secondary" type="button">Retry</button>
+    </div>
+
+    <div id="dashboard-content" class="hidden">
+
+        <div class="dashboard-header">
+            <div>
+                <p class="dashboard-eyebrow">🌱 FIELD MONITORING</p>
+                <h1>Irrigation advisory</h1>
+                <p class="last-updated">
+                    Last updated: <span id="last-updated-time">—</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="fd-kpis">
+            <div class="fd-kpi">
+                <p class="fd-kpi-label">📡 Live soil moisture</p>
+                <p class="fd-kpi-value" id="live-moisture-value">—</p>
+                <small id="live-age"></small>
+            </div>
+            <div class="fd-kpi">
+                <p class="fd-kpi-label">🌡️ Temperature</p>
+                <p class="fd-kpi-value" id="live-temp-value">—</p>
+            </div>
+            <div class="fd-kpi">
+                <p class="fd-kpi-label">💨 Humidity</p>
+                <p class="fd-kpi-value" id="live-humidity-value">—</p>
+            </div>
+            <div class="fd-kpi">
+                <p class="fd-kpi-label">🌱 Soil condition</p>
+                <p class="fd-kpi-value" id="soil-condition-value">—</p>
+            </div>
+            <div class="fd-kpi">
+                <p class="fd-kpi-label">💚 Soil health</p>
+                <p class="fd-kpi-value" id="health-value">—</p>
+            </div>
+        </div>
+
+        <div class="fd-next" id="next-irrigation">
+            <p class="fd-now" id="irrigate-now"></p>
+            <p class="fd-next-label">📅 Next irrigation</p>
+            <p class="fd-next-date" id="next-date">—</p>
+            <p class="fd-next-when" id="next-when"></p>
+            <p class="fd-next-basis" id="next-basis"></p>
+            <details class="fd-next-why">
+                <summary>Why this date? (rule-based explanation)</summary>
+                <p id="next-reason"></p>
+                <ul id="next-factors"></ul>
+                <p class="fd-next-note" id="next-note"></p>
+            </details>
+        </div>
+
+        <div class="fd-grid">
+
+            <div class="fd-left">
+
+                <section class="fd-card">
+                    <h2 class="fd-title">Field Overview</h2>
+                    <div id="field-map" class="fd-map"></div>
+                    <p class="fd-caption" id="field-caption"></p>
+                </section>
+
+                <section class="fd-card">
+                    <h2 class="fd-title">Weather Forecast</h2>
+                    <div class="fd-weather" id="weather-days"></div>
+                </section>
+
+            </div>
+
+            <section class="fd-card fd-forecast">
+                <h2 class="fd-title">Soil Moisture Forecast</h2>
+                <div class="fd-chart-wrap">
+                    <canvas id="forecastChart"></canvas>
+                </div>
+                <p class="fd-caption" id="forecast-note"></p>
+            </section>
+
+            <section class="fd-card fd-irrigation">
+                <h2 class="fd-title">Irrigation Recommendation</h2>
+
+                <div class="fd-irr-body">
+                    <div class="fd-gauge">
+                        <svg viewBox="0 0 200 120" class="fd-gauge-svg">
+                            <path d="M 20 100 A 80 80 0 0 1 180 100" class="g-track"></path>
+                            <path id="gauge-fill" d="M 20 100 A 80 80 0 0 1 180 100" class="g-fill"></path>
+                            <line id="gauge-needle" x1="100" y1="100" x2="100" y2="40" class="g-needle"></line>
+                            <circle cx="100" cy="100" r="6" class="g-hub"></circle>
+                            <text x="14" y="116" class="g-label">0</text>
+                            <text x="186" y="116" class="g-label" text-anchor="end">40 mm</text>
+                        </svg>
+
+                        <p class="fd-gauge-value" id="gauge-value">—</p>
+                        <p class="fd-gauge-range" id="gauge-range"></p>
+                    </div>
+
+                    <ul class="fd-windows" id="irrigation-windows"></ul>
+                </div>
+
+                <div class="fd-alert alert-ok" id="stress-alert">
+                    <strong id="alert-title"></strong>
+                    <span id="alert-text"></span>
+                </div>
+
+                <p class="fd-advisory" id="advisory-text"></p>
+                <div class="fd-chips" id="shap-chips"></div>
+            </section>
+
+            <section class="fd-card fd-stress">
+                <h2 class="fd-title">Upcoming Water Stress</h2>
+
+                <div class="fd-legend">
+                    <span><i style="background:#4C9A5F"></i>Healthy</span>
+                    <span><i style="background:#E8B93B"></i>Warning</span>
+                    <span><i style="background:#D9534F"></i>Critical</span>
+                </div>
+
+                <div class="fd-chart-wrap short">
+                    <canvas id="stressChart"></canvas>
+                </div>
+            </section>
+
+            <!-- LIVE SENSOR GRAPH -->
+            <section class="fd-card fd-sensor-live">
+                <div class="fd-sensor-heading">
+                    <div>
+                        <h2 class="fd-title">Live Sensor Readings</h2>
+                        <p class="fd-caption">
+                            Monitor changes in your field sensor readings.
+                        </p>
+                    </div>
+
+                    <span class="fd-live-indicator">
+                        <span class="fd-live-dot"></span>
+                        Live
+                    </span>
+                </div>
+
+                <p class="fd-sensor-updated">
+                    Last checked: <span id="sensor-chart-updated">Waiting for data...</span>
+                </p>
+
+                <div class="fd-chart-wrap fd-live-chart-wrap">
+                    <canvas id="sensorReadingChart"></canvas>
+                </div>
+
+                <p class="fd-caption" id="sensor-chart-message">
+                    Waiting for sensor readings...
+                </p>
+            </section>
+
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div>
+            <strong>AgriTwin<span class="logo-accent">AI</span></strong>
+            <p>Smart irrigation advisory for sustainable farming.</p>
+        </div>
+    </div>
+</footer>
+
+<button id="chat-toggle-btn" class="chat-toggle-btn" type="button">💬</button>
+
+<div id="chat-window" class="chat-window hidden">
+    <div class="chat-header">
+        <span>🌾 AgriTwin Assistant</span>
+        <button id="chat-close-btn" class="chat-close-btn" type="button">✕</button>
+    </div>
+
+    <div id="chat-messages" class="chat-messages">
+        <div class="chat-message bot">
+            Hi! Ask me anything about irrigation, soil moisture,
+            or your current field conditions.
+        </div>
+    </div>
+
+    <div class="chat-input-row">
+        <select id="chat-lang-select" class="chat-lang-select">
+            <option value="en-US">EN</option>
+            <option value="hi-IN">HI</option>
+            <option value="mr-IN">MR</option>
+        </select>
+
+        <button type="button" id="chat-mic-btn" class="chat-mic-btn"
+                title="Speak your question">🎤</button>
+
+        <input type="text" id="chat-input" placeholder="Ask a question...">
+        <button id="chat-send-btn" type="button">Send</button>
+    </div>
+</div>
+
+<!-- CHANGED: each script is now loaded only once -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/nav.js"></script>
+
+</body>
+</html>

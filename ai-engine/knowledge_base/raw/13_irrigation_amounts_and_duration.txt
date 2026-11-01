@@ -1,0 +1,17 @@
+General Irrigation Amount and Duration Ranges (Reference Only)
+
+These are general reference ranges, not exact prescriptions - actual requirements vary by crop variety, soil type, climate, and system design. Always adjust based on soil moisture readings and crop condition.
+
+Drip irrigation duration:
+Drip irrigation typically runs for shorter durations more frequently, since it delivers water slowly and directly to the root zone. A common general range is 30 minutes to 2 hours per session, depending on dripper flow rate and how dry the soil is. Sandy soils often need shorter, more frequent sessions; clay soils can use longer, less frequent sessions.
+
+Sprinkler irrigation duration:
+Sprinklers typically run for 30 minutes to 1.5 hours per session, depending on sprinkler flow rate and desired water depth. Running sprinklers during early morning or evening reduces evaporation loss.
+
+Flood/furrow irrigation depth:
+Flood irrigation is usually measured in water depth applied per session rather than duration. A common general range is 5 to 10 centimeters (50 to 100 mm) of water depth per irrigation event for many field crops, though water-intensive crops like paddy require standing water instead of a single depth application.
+
+General water requirement per acre (approximate reference):
+Many common field crops need approximately 1,500 to 2,500 cubic meters of water per acre per season under drip irrigation, with actual figures varying significantly by crop, climate, and soil. Water-intensive crops like paddy require substantially more, often 2-3 times this range, due to standing water requirements.
+
+Important: these are general planning ranges, not precise prescriptions for a specific field. Actual irrigation amount and duration should be adjusted based on real-time soil moisture readings, current weather, and the crop's specific growth stage. For an exact calculation, a farmer needs to provide field area, irrigation method and system flow rate; with these the server calculates litres and running time (see the water quantity calculation file). Without them, only a general range can be given.

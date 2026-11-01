@@ -1,0 +1,14 @@
+Fertilizer Management Basics
+
+Fertilizer needs depend on the crop, its growth stage, and the soil's existing nutrient levels - there is no single fertilizer that suits every crop and situation.
+
+General principles:
+- Nitrogen (N) supports leafy, vegetative growth - often needed more during early growth stages.
+- Phosphorus (P) supports root development and flowering - important during early growth and flowering stages.
+- Potassium (K) supports overall plant health, disease resistance, and fruit/grain quality - often needed during fruiting/grain-filling stages.
+
+Different crops have different general nutrient needs - for example, leguminous crops like soybean can fix some of their own nitrogen from the air, so their added-nitrogen requirement is typically lower than cereal crops like wheat or maize.
+
+Fertilizer type and quantity should ideally be based on a soil test, since applying fertilizer without knowing existing soil nutrient levels can lead to over-fertilization (wasting money, harming soil health) or under-fertilization (limiting yield).
+
+Without specific crop, growth stage, and soil test information, a general recommendation cannot be precise. Farmers are encouraged to get a soil test done through their local agriculture department and consult a local agricultural extension officer for a fertilizer plan specific to their field.

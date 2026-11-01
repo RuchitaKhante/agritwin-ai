@@ -1,0 +1,14 @@
+Crop Cultivation Costs (General Reference)
+
+Growing any crop involves several cost categories: seeds, fertilizer, pesticides, labour, irrigation, machinery/land preparation, and other costs like transport or storage.
+
+These costs vary significantly by region, crop variety, season, and current market prices, so any number given without local, current data should be treated as a rough reference only, not an exact figure.
+
+General cost categories to consider when estimating:
+- Seeds: quantity depends on crop and sowing method (broadcasting vs. row sowing needs different seed rates).
+- Land preparation: ploughing, harrowing - usually a fixed per-acre cost or tractor rental rate.
+- Fertilizer and pesticides: cost depends on soil test results and pest pressure, not a fixed amount.
+- Irrigation: cost depends on method (drip is higher upfront cost but saves water long-term; flood is cheaper upfront but uses more water).
+- Labour: sowing, weeding, and harvesting labour costs vary by region and mechanization level.
+
+Because prices change frequently and vary by district, a chatbot or advisory tool should not quote a fixed rupee amount without current local data. Farmers should check with their local agricultural market committee (Krishi Upaj Mandi) or agriculture extension office for current, location-specific cost estimates.

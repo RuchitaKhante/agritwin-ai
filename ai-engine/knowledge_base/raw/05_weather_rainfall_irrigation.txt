@@ -1,0 +1,12 @@
+Weather and Rainfall-Based Irrigation Decisions
+
+Weather forecasts, especially rain probability, play an important role in irrigation decisions. Irrigating right before significant rainfall can waste water and increase waterlogging risk. Skipping irrigation when rain doesn't materialize can leave a crop under stress.
+
+General guidance:
+- High rain probability (roughly above 60-70%) close to the present time can justify a short delay ONLY if the soil is not already critical, the crop is not at a critical growth stage, and the expected rainfall amount is large enough. Rain probability does not say how much rain will fall; see the weather decision rules file.
+- Low rain probability (roughly below 20-30%) combined with low soil moisture generally suggests irrigation is needed.
+- Moderate rain probability is a judgment call — combining it with current soil moisture and how dry the crop currently looks gives a better decision than rain probability alone.
+
+High temperature increases water loss through evaporation and plant transpiration, so hot, dry, low-rain-probability conditions typically increase irrigation need even if soil moisture looks borderline.
+
+Weather forecasts have uncertainty. Farmers should treat rain-probability-based advice as guidance, not a guarantee, and adjust to what actually happens in their field.

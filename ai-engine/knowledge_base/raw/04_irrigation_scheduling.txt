@@ -1,0 +1,12 @@
+Irrigation Scheduling
+
+Irrigation scheduling is deciding when and how much to irrigate. Good scheduling balances three factors: current soil moisture, upcoming weather (especially rain chance), and the crop's current growth stage.
+
+General guidance for scheduling decisions:
+- If soil moisture is already adequate and rain is expected soon, irrigation can usually be delayed or skipped to avoid overwatering.
+- If soil moisture is low and no rain is expected, irrigation is generally advisable.
+- If soil moisture is low but rain is expected within a day, a farmer may choose to wait and observe, since rainfall may resolve the deficit — though this depends on how reliable the forecast is and how stressed the crop currently looks.
+
+Early morning or evening irrigation is generally preferred over midday, since it reduces water loss to evaporation and reduces heat stress on the plant during watering.
+
+Scheduling decisions should always be treated as guidance to combine with a farmer's own field observation, not as an automatic instruction.

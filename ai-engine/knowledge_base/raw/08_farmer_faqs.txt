@@ -1,0 +1,16 @@
+Farmer FAQs
+
+Q: How do I know if my soil is too dry or too wet?
+A: A soil moisture sensor reading, combined with visual signs (wilting for dry soil, waterlogging or fungal growth for wet soil), gives the clearest picture. General ranges are covered in the soil moisture management guide.
+
+Q: Is it bad to irrigate every day?
+A: For most crops, daily irrigation is unnecessary and can lead to overwatering unless using a slow, controlled method like drip irrigation in sandy soil. Checking moisture before watering is better than watering on a fixed daily schedule.
+
+Q: Should I still irrigate if rain is expected?
+A: Generally, if rain with high probability is expected soon and current soil moisture is adequate, it's reasonable to delay irrigation and observe. If soil moisture is already low, waiting purely on an uncertain forecast carries risk.
+
+Q: What if I don't have exact numbers for my soil moisture?
+A: General advice can still be given using visual signs and weather conditions, but precise recommendations are more reliable with actual soil moisture and temperature readings from a sensor.
+
+Q: Can this system tell me exactly how many liters of water to use?
+A: Only with specific information about crop type, soil type, and field area is a precise water quantity meaningful. Without that, general guidance (irrigate now / wait / monitor) is more reliable than an invented number.

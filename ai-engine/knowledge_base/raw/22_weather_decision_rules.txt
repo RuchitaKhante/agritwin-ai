@@ -1,0 +1,13 @@
+Weather-Based Irrigation Decision Rules
+
+Rain probability is not rain amount: a 70 percent chance of rain only means rain is likely to occur at least a little; it does not say how much will fall. Do not skip or postpone irrigation using probability alone. Use the forecast rainfall amount in mm when it is available, and say clearly when it is not.
+
+Rule of thumb for how much rain helps (approximate): under 5 mm barely wets the surface and mostly evaporates; 5 to 10 mm gives partial help; 10 to 25 mm can replace part of an irrigation event; above about 25 mm can replace a full irrigation event; very heavy rain above about 50 mm risks runoff and waterlogging.
+
+Never postpone irrigation when the soil is already critical (below the critical threshold) or the crop is at a critical growth stage such as flowering or grain filling. Irrigate now, then adjust later irrigations after the real rain. When the soil is dry but not critical, postponing for up to 24 hours is reasonable only if the rain is likely soon (within 12 to 24 hours) and the forecast amount is large enough (about 10 to 15 mm or more). When the soil is normal or wet, rain can safely replace the next planned irrigation.
+
+Timing and uncertainty: forecasts are most reliable for the next 6 to 24 hours and become less reliable 3 to 7 days ahead. Rain that is forecast for several days later should not delay irrigation that is needed today. After any rain, check the sensor reading and the field before irrigating again.
+
+Temperature and humidity: hot, dry weather (above about 35 degrees Celsius with low humidity and wind) increases evaporation and plant water use, so soil dries faster and irrigation is needed sooner and more often. Cool, humid or cloudy weather lowers water use and can delay the next irrigation. Irrigate in the early morning or evening to reduce evaporation loss.
+
+Combining the factors: decide in this order. First current soil moisture and condition; second crop growth stage and stress risk; third forecast rainfall amount, timing and its uncertainty; fourth temperature and humidity. A lower-priority factor should not override a higher one, for example high rain probability should not override critical soil moisture.

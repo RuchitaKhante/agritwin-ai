@@ -1,0 +1,12 @@
+Soil Moisture Management
+
+Soil moisture is the amount of water held in the soil, usually expressed as a percentage. Different soils hold water differently: sandy soil drains quickly and needs more frequent watering, while clay soil holds water longer but drains slowly and can become waterlogged if over-irrigated.
+
+As a general guide, soil moisture readings can be understood loosely as:
+- Below 20-25%: soil is dry, most crops will show stress signs like wilting or slowed growth.
+- Around 30-50%: soil is in a healthy moist range for many common crops, though the ideal range varies by crop and soil type.
+- Above 60-70%: soil is very wet, risk of waterlogging increases, especially in clay soils.
+
+These ranges are general guidance, not fixed rules — always cross-check with the specific crop's water requirement, since some crops (like paddy) tolerate much wetter soil than others (like tomato or chili).
+
+Checking soil moisture regularly, rather than watering on a fixed calendar, helps avoid both drought stress and waterlogging.

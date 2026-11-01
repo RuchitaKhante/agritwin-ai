@@ -1,0 +1,90 @@
+.fd-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px; margin-bottom: 20px; }
+.fd-kpi { background: #fff; border: 1px solid #dfe8dc; border-radius: 14px; padding: 16px 18px; }
+.fd-kpi-label { font-size: 13px; color: #617065; margin: 0 0 6px; }
+.fd-kpi-value { font-size: 24px; font-weight: 700; margin: 0; color: #1f3a2a; }
+.fd-kpi-value span { font-size: 14px; font-weight: 400; color: #617065; }
+.fd-kpi small { display: block; margin-top: 4px; font-size: 12px; color: #617065; }
+.fd-kpi-value[data-level="critical"] { color: #D9534F; }
+.fd-kpi-value[data-level="dry"] { color: #C98A10; }
+.fd-kpi-value[data-level="normal"] { color: #3D8B50; }
+.fd-kpi-value[data-level="wet"] { color: #2563eb; }
+
+.fd-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-areas: "left forecast forecast" "left irrigation stress";
+  gap: 20px;
+}
+.fd-left { grid-area: left; display: flex; flex-direction: column; gap: 20px; }
+.fd-forecast { grid-area: forecast; }
+.fd-irrigation { grid-area: irrigation; }
+.fd-stress { grid-area: stress; }
+
+.fd-card {
+  background: #fff; border: 1px solid #dfe8dc; border-radius: 16px;
+  padding: 20px; box-shadow: 0 2px 10px rgba(31, 58, 42, 0.05);
+}
+.fd-title { font-size: 17px; font-weight: 700; margin: 0 0 14px; color: #1f3a2a; }
+.fd-caption { font-size: 12px; color: #617065; margin: 10px 0 0; }
+
+.fd-map { height: 190px; border-radius: 12px; overflow: hidden; background: #e8efe5; }
+.fd-chart-wrap { position: relative; height: 320px; }
+.fd-chart-wrap.short { height: 240px; }
+
+.fd-weather { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; text-align: center; }
+.fd-day { font-size: 12px; color: #617065; }
+.fd-day .ico { font-size: 24px; display: block; margin: 4px 0; }
+.fd-day strong { display: block; font-size: 14px; color: #1f3a2a; }
+.fd-day small { color: #617065; }
+
+.fd-irr-body { display: grid; grid-template-columns: 190px 1fr; gap: 16px; align-items: center; }
+.fd-gauge { text-align: center; }
+.fd-gauge-svg { width: 100%; }
+.g-track { fill: none; stroke: #e3ece0; stroke-width: 14; stroke-linecap: round; }
+.g-fill { fill: none; stroke: #3D8B50; stroke-width: 14; stroke-linecap: round;
+          stroke-dasharray: 251.33; stroke-dashoffset: 251.33; transition: stroke-dashoffset .6s ease; }
+.g-needle { stroke: #1f3a2a; stroke-width: 3; stroke-linecap: round; transition: transform .6s ease; }
+.g-hub { fill: #1f3a2a; }
+.g-label { font-size: 10px; fill: #617065; }
+.fd-gauge-value { font-size: 22px; font-weight: 700; margin: 2px 0 0; color: #1f3a2a; }
+.fd-gauge-range { font-size: 12px; color: #617065; margin: 0; }
+
+.fd-windows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.fd-windows li { display: flex; gap: 10px; align-items: flex-start; }
+.fd-windows strong { display: block; font-size: 14px; color: #1f3a2a; }
+.fd-windows span { font-size: 13px; color: #617065; }
+.fd-win-dot { flex: 0 0 22px; width: 22px; height: 22px; border-radius: 50%; background: #3D8B50;
+              color: #fff; font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+.fd-win-none { color: #617065; font-size: 14px; }
+
+.fd-alert { margin-top: 16px; padding: 12px 14px; border-radius: 10px; font-size: 14px; }
+.fd-alert strong { display: block; margin-bottom: 2px; }
+.alert-ok { background: #e8f3ea; color: #2c6a3b; }
+.alert-moderate { background: #fdf3dc; color: #8a5a12; }
+.alert-severe { background: #fbe4e2; color: #a12f2a; }
+
+.fd-advisory { font-size: 14px; line-height: 1.5; margin: 14px 0 8px; color: #1f3a2a; }
+.fd-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.fd-chip { background: #eef4ec; color: #2c6a3b; font-size: 12px; padding: 4px 10px; border-radius: 20px; }
+
+.fd-legend { display: flex; gap: 14px; font-size: 12px; color: #617065; margin-bottom: 8px; }
+.fd-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
+
+@media (max-width: 1000px) {
+  .fd-grid { grid-template-columns: 1fr; grid-template-areas: "left" "forecast" "irrigation" "stress"; }
+  .fd-kpis { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) { .fd-irr-body { grid-template-columns: 1fr; } }
+
+.fd-next { margin-top: 16px; padding: 14px 16px; border-radius: 12px; background: #eef4ec; border: 1px solid #dfe8dc; }
+.fd-now { display: none; margin: 0 0 10px; padding: 8px 10px; border-radius: 8px; background: #e3effa; color: #1d4e89; font-size: 13px; font-weight: 600; }
+.fd-next-label { margin: 0; font-size: 12px; color: #617065; }
+.fd-next-date { margin: 2px 0 0; font-size: 22px; font-weight: 700; color: #1f3a2a; }
+.fd-next-when { margin: 2px 0 0; font-size: 14px; font-weight: 600; color: #3D8B50; }
+.fd-next-when[data-state="stale"] { color: #D9534F; }
+.fd-next-basis { margin: 8px 0 0; font-size: 12px; color: #617065; line-height: 1.5; }
+.fd-next-why { margin-top: 10px; font-size: 13px; color: #1f3a2a; }
+.fd-next-why summary { cursor: pointer; font-weight: 600; }
+.fd-next-why ul { margin: 8px 0 0; padding-left: 18px; }
+.fd-next-why li { margin-bottom: 4px; line-height: 1.5; }
+.fd-next-note { font-size: 11px; color: #617065; margin: 8px 0 0; }

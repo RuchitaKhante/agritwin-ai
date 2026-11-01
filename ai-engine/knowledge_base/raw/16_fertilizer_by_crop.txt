@@ -1,0 +1,15 @@
+General Fertilizer Guidance by Crop (Reference Only - Not a Substitute for Soil Testing)
+
+These are general, widely-known nutrient tendencies for common crops. Exact fertilizer type and quantity should always be based on a soil test, since nutrient needs vary by soil condition, not just crop type.
+
+Cotton: generally benefits from balanced nitrogen through vegetative growth, with reduced nitrogen and increased potassium during boll development to support fiber quality. Excess nitrogen late in the season can delay maturity.
+
+Soybean: being a legume, soybean fixes some of its own nitrogen from the air via root nodules, so it typically needs less added nitrogen than cereal crops. Phosphorus and potassium support root development and pod filling.
+
+Wheat: generally needs nitrogen in split doses - at sowing, at crown root initiation, and sometimes at flowering - along with phosphorus at sowing for root establishment.
+
+Rice/paddy: typically needs nitrogen in split applications across the growing cycle, with phosphorus and potassium applied mainly at transplanting/early growth.
+
+Vegetables (tomato, chili, and similar): generally benefit from balanced NPK with higher potassium during fruiting to support fruit quality, though exact needs vary significantly by variety and soil.
+
+Important: these are general tendencies, not a fertilizer plan. The right type, quantity, and timing depends on a soil test, the specific variety, and local agricultural recommendations. Applying fertilizer based on general assumptions without a soil test can lead to nutrient imbalance, wasted money, or crop/environmental harm. A local agricultural extension officer or Krishi Vigyan Kendra (KVK) can provide a fertilizer plan specific to the field.

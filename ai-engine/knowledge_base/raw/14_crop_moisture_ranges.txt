@@ -1,0 +1,15 @@
+General Soil Moisture Comfort Ranges by Crop Type (Reference Only)
+
+These are general reference ranges for typical healthy soil moisture - actual optimal ranges vary by soil type, climate, and crop variety. Always combine with visual crop inspection.
+
+Cotton: generally prefers soil moisture in the moderate range, roughly 25-40%. Cotton is relatively drought-tolerant compared to many crops but still shows stress (leaf curling, slowed boll development) if moisture drops much below this range for extended periods. Avoid waterlogging, as cotton roots are sensitive to prolonged saturation.
+
+Soybean: generally prefers soil moisture in the moderate-to-high range, roughly 30-50%, especially during flowering and pod-filling stages, when water stress most affects yield.
+
+Wheat: moisture needs vary by growth stage - lower during early tillering, higher during flowering and grain-filling. A general moderate range of 25-45% is often suitable, with critical watering needed at crown root initiation and flowering stages.
+
+Rice/paddy: unlike most crops, rice is typically grown with standing water for much of its cycle and tolerates much higher soil moisture/saturation than other field crops.
+
+Vegetables (tomato, chili, and similar): generally prefer consistent moderate moisture, roughly 30-50%, and are sensitive to both drought stress and waterlogging - consistency matters more than any single reading.
+
+These ranges are general starting points. If a farmer's crop or variety isn't listed, use general soil moisture ranges (20-25% dry, 30-50% healthy, 60%+ risk of waterlogging) and recommend checking with a local agricultural extension office for crop-specific guidance.
